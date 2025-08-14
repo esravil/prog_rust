@@ -1,0 +1,23 @@
+# Rust build artifacts
+target/
+*.exe
+*.pdb
+*.o
+*.a
+*.so
+*.dylib
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS files
+.DS_Store
+
+# Other common ignores
+*.log
+*.tmp
+*.temp
