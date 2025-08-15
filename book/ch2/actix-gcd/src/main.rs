@@ -24,9 +24,9 @@ async fn main() -> std::io::Result<()> {
             .route("/gcd", web::post().to(post_gcd))
     });
 
-    println!("Serving on http://localhost:3000...");
+    println!("Serving on http://localhost:8080...");
     server
-        .bind("127.0.0.1:3000")?
+        .bind("127.0.0.1:8080")? // 3000 is for nodejs
         .run()
         .await
 }
